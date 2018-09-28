@@ -135,15 +135,22 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #633991;
+    color: #069426;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
 }
 
+.btn-light:hover{
+    background: #000;
+    color: #FFF;
+}
+
 .btn-download {
     border-radius: 60px;
-    background-image: -webkit-linear-gradient(90deg, #0c0c0c 0%, #292929 100%);
+    /*background-image: -webkit-linear-gradient(90deg, #0c0c0c 0%, #292929 100%);*/
+    background: #069426;
+    box-shadow: none;
     color: #FFF;
 }
 
