@@ -109,4 +109,8 @@ $(function() {
         });
     }
 
+    $('.download-box').click(function() {
+        $('#installHint').fadeIn();
+    })
+
 }); /* End Fn */
